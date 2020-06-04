@@ -2,15 +2,15 @@
 
 ESC Company에서 개발할 때 지켜야 하는 가이드라인을 설명합니다.
 
-- [일반적인 PHP 룰](#일반적인-php-룰)
-  - [컨벤션](#컨벤션)
-  - [폴더 규칙](#폴더-규칙)
-  - [이미 예약된 파일 이름](#이미-예약된-파일-이름)
-  - [Composer 네임스페이스](#composer-네임스페이스)
-  - [타입과 주석](#타입과-주석)
-  - [삼항 연산자(Ternary operators)와 복수 파라미터](#삼항-연산자ternary-operators와-복수-파라미터)
-- [에디터 설정](#에디터-설정)
-  - [스타일 픽서](#스타일-픽서)
+* [일반적인 PHP 룰](php.md#일반적인-php-룰)
+  * [컨벤션](php.md#컨벤션)
+  * [폴더 규칙](php.md#폴더-규칙)
+  * [이미 예약된 파일 이름](php.md#이미-예약된-파일-이름)
+  * [Composer 네임스페이스](php.md#composer-네임스페이스)
+  * [타입과 주석](php.md#타입과-주석)
+  * [삼항 연산자\(Ternary operators\)와 복수 파라미터](php.md#삼항-연산자ternary-operators와-복수-파라미터)
+* [에디터 설정](php.md#에디터-설정)
+  * [스타일 픽서](php.md#스타일-픽서)
 
 ## 일반적인 PHP 룰
 
@@ -20,31 +20,31 @@ PHP의 코딩에 있어서 [PSR-1](https://psr.kkame.net/accepted/psr-1-basic-co
 
 ### 컨벤션
 
-|            | Case Type             | Example          |
-| :--------- | :-------------------- | :--------------- |
-| Classes    | PascalCase            | HolapetClass     |
-| Methods    | camelCase             | holapetMethod    |
-| Properties | camelCase             | holapetProperty  |
-| Constant   | UPPER_CASE_SNAKE_CASE | HOLAPET_CONSTANT |
+|  | Case Type | Example |
+| :--- | :--- | :--- |
+| Classes | PascalCase | HolapetClass |
+| Methods | camelCase | holapetMethod |
+| Properties | camelCase | holapetProperty |
+| Constant | UPPER\_CASE\_SNAKE\_CASE | HOLAPET\_CONSTANT |
 
 ### 폴더 규칙
 
 폴더 규칙은 [pds/skeleton](https://github.com/php-pds/skeleton)를 지켜야 합니다.
 
-|                | Folder Name | Example                     |
-| :------------- | :---------- | :-------------------------- |
-| Sources        | src/        | src/HelapetClass.php        |
-| Test Sources   | tests/      | tests/holapetClassTest.php  |
-| Configure      | config/     | config/config.php           |
-| Resource Files | resources/  | resources/app.css           |
-| Execute Files  | bin/        | bin/process_join_user_count |
-| Documents      | docs/       | docs/how-to-build.md        |
+|  | Folder Name | Example |
+| :--- | :--- | :--- |
+| Sources | src/ | src/HelapetClass.php |
+| Test Sources | tests/ | tests/holapetClassTest.php |
+| Configure | config/ | config/config.php |
+| Resource Files | resources/ | resources/app.css |
+| Execute Files | bin/ | bin/process\_join\_user\_count |
+| Documents | docs/ | docs/how-to-build.md |
 
 ### 이미 예약된 파일 이름
 
-|             | Folder Name |
-| :---------- | :---------- |
-| Information | README.md   |
+|  | Folder Name |
+| :--- | :--- |
+| Information | README.md |
 
 ### Composer 네임스페이스
 
@@ -80,17 +80,17 @@ function getC(): C {
 
 인라인 태그 레퍼런스 :
 
-|             | Example                                                                                                                           |
-| :---------- | :-------------------------------------------------------------------------------------------------------------------------------- |
-| @example    | @example example1.php Counting in action.                                                                                         |
-| @internal   | @internal                                                                                                                         |
-| @inheritdoc | @inheritdoc                                                                                                                       |
-| @link       | @link http://example.com/my/bar Documentation of Foo.                                                                             |
-| @see        | @see http://example.com/my/bar Documentation of Foo. <br>@see MyClass::$items           For the property whose items are counted. |
+|  | Example |
+| :--- | :--- |
+| @example | @example example1.php Counting in action. |
+| @internal | @internal |
+| @inheritdoc | @inheritdoc |
+| @link | @link [http://example.com/my/bar](http://example.com/my/bar) Documentation of Foo. |
+| @see | @see [http://example.com/my/bar](http://example.com/my/bar) Documentation of Foo. &lt;br&gt;@see MyClass::$items           For the property whose items are counted. |
 
 태그 레퍼런스 :
 
-```
+```text
 @api
 @author
 @category
@@ -123,7 +123,7 @@ function getC(): C {
 
 주석의 타입에서 mixed는 2019년 2월 7일 PHP RFC를 통해서 명확히 정의가 되었으므로, 다른 의미로 절대 사용하지 않습니다.
 
-```
+```text
 // Good
 mixed = string | bool | int | float | resource | array | object | callable | null
 
@@ -133,7 +133,7 @@ mixed = string | null
 
 mixed 타입에 void는 포함되지 않음을 유의하세요.
 
-### 삼항 연산자(Ternary operators)와 복수 파라미터
+### 삼항 연산자\(Ternary operators\)와 복수 파라미터
 
 삼항 연산자와 복수 파라미터의 표기는 다음에 나오는 것이 필수인지 아닌지로 구분합니다.
 
@@ -167,7 +167,7 @@ compact(
 
 ### 스타일 픽서
 
-VSCode에서는 [php_cs_fixer를 설치](https://github.com/junstyle/vscode-php-cs-fixer)하며, 아래와 같은 설정을 이용합니다.
+VSCode에서는 [php\_cs\_fixer를 설치](https://github.com/junstyle/vscode-php-cs-fixer)하며, 아래와 같은 설정을 이용합니다.
 
 ```php
 <?php
@@ -227,3 +227,4 @@ return PhpCsFixer\Config::create()
 ])
 ->setLineEnding("\n");
 ```
+
