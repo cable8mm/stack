@@ -18,3 +18,7 @@ Route::middleware('auth:love-holapet')->group(function () {
     Route::redirect('/edit-or-write', '/esc-company/helloworld/pulls');
 });
 ```
+
+## License
+
+The esc-company/helloworld's content(docs/) is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
