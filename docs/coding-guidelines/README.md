@@ -1,2 +1,2 @@
-# coding-guidelines
+# 코딩 가이드라인
 
