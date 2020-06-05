@@ -26,14 +26,14 @@ if must installed, we use electronjs.
 
 ## Communications
 
-| Title            | Description            |
-| :--------------- | :--------------------- |
-| Development      | Github Issue + comment |
-| Alarm            | Slack                  |
-| Non-Development  | Email + KakaoTaik      |
-| Video Conference | Zoom                   |
-| Screen Sharing   | Team Viewer            |
-| Intranet         | Office 365             |
+| Title            | Description                   |
+| :--------------- | :---------------------------- |
+| Development      | Github Issue + comment, Email |
+| Alarm            | Slack                         |
+| Non-Development  | Email + KakaoTaik             |
+| Video Conference | Zoom                          |
+| Screen Sharing   | Team Viewer                   |
+| Intranet         | Office 365                    |
 
 ## Third-Party Package
 
