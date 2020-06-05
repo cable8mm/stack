@@ -49,6 +49,7 @@ if must installed, we use Electron.
 
 | Title                    | Description             |
 | :----------------------- | :---------------------- |
+| Development Environment  | Valet                   |
 | Admin                    | Nova                    |
 | Cache & Image Processing | Google PageSpeed Module |
 | Server Monitoring        | Gabia                   |
@@ -103,4 +104,4 @@ if must installed, we use Electron.
 | Debug          | PHP Debug, PHPUnit                                                                                          |
 | Source Version | GitLens                                                                                                     |
 | Comment        | PHP DocBlocker                                                                                              |
-| Grammer        | 단디 - 한국어 맞춤법 검사기                                                                                 |
+| Grammar        | 단디 - 한국어 맞춤법 검사기                                                                                 |
