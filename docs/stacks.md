@@ -30,7 +30,7 @@ if must installed, we use electronjs.
 | :--------------- | :---------------------------- |
 | Development      | Github Issue + comment, Email |
 | Alarm            | Slack                         |
-| Non-Development  | Email + KakaoTaik             |
+| Non-Development  | Email + KakaoTalk             |
 | Video Conference | Zoom                          |
 | Screen Sharing   | Team Viewer                   |
 | Intranet         | Office 365                    |
