@@ -8,6 +8,8 @@ ESC Company에서는 [Github](https://github.com/esc-company)을 저장소로 [E
 
 모든 코드는 테스트 코드가 작성되어야 하며, [StyleCI](https://styleci.io/)와 `Github Action`으로 검증되어야 합니다.
 
+![깃헙에 코드를 푸쉬할 때에는 StyleCI와 Github Action 뱃지는 필수](../.gitbook/assets/screenshot-github-badges.png)
+
 라이브러리도 예외는 아니며, 레포지토리 상단에 StyleCI와 Github Action의 Build 뱃지를 추가하며, 배포 준비가 되면 [packagist.org](https://packagist.org/)에 등록 요청을 같은 저장소의 Issue를 통해서 개발팀 매니저에게 요청합니다.
 
 요청을 할 때 이 라이브러리를 필요로 하는 동료 개발자가 있다면 그 개발자 이름으로 Reference를 넣어서 알람이 가게 합니다.
