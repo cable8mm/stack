@@ -61,6 +61,7 @@ if must installed, we use Electron.
 | Server Setting     | Forge          |
 | Source Repository  | Github         |
 | Style Checker      | StyleCI        |
+| Manual & Essay     | Gitbook        |
 
 ## Machines & Devices
 
