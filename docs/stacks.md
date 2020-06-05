@@ -56,19 +56,22 @@ if must installed, we use Electron.
 
 ## Third-Party Services
 
-| Title              | Description    |
-| :----------------- | :------------- |
-| Email              | AWS SES        |
-| DNS                | AWS Route53    |
-| Mall               | GodoMall pro+  |
-| Mall Operation     | Playauto       |
-| Second Good Center | Junglebook API |
-| Server Status      | OhDear         |
-| Deploy             | Envoyer        |
-| Server Setting     | Forge          |
-| Source Repository  | Github         |
-| Style Checker      | StyleCI        |
-| Manual & Essay     | Gitbook        |
+| Title              | Description                            |
+| :----------------- | :------------------------------------- |
+| Email              | AWS SES                                |
+| DNS                | AWS Route53                            |
+| Mall               | GodoMall pro+                          |
+| Mall Operation     | Playauto                               |
+| Second Good Center | Junglebook API                         |
+| Server Status      | OhDear                                 |
+| Deploy             | Envoyer                                |
+| Server Setting     | Forge                                  |
+| Source Repository  | Github                                 |
+| Style Checker      | StyleCI                                |
+| Manual & Essay     | Gitbook                                |
+| Analytics          | Google Tag Manager, Google Data Studio |
+| Mall Analytics     | AceCounter                             |
+| Advertising        | Facebook Pixel, Kakao Moment Pixel     |
 
 ## Machines & Devices
 
