@@ -7,22 +7,23 @@
 | Languages       | PHP(over 7.3), Swift(over 5.1), Android Java, Shell |
 | OS              | CentOS 7, Ubuntu 1810                               |
 | Web Server      | Apache 2.4+                                         |
-| Web Framework   | Laravel, CakePHP                                    |
 | Server          | AWS EC2 + Lightsail, OnPromise                      |
 | DB              | MySQL 5.7                                           |
 | Session & Cache | Radis                                               |
 
-if must installed, we use electronjs.
-
 ## Web
 
-| Title              | Description                            |
-| :----------------- | :------------------------------------- |
-| js Package Manager | npm                                    |
-| js packing & build | Webpack, Laravel MIX                   |
-| css structuring    | SCSS                                   |
-| Javascript         | Vue, jQuery                            |
-| CSS                | Bootstrp 4 or fluxlayout + Tailwindcss |
+| Title               | Description                            |
+| :------------------ | :------------------------------------- |
+| Web Framework       | Laravel 7(Front), CakePHP 2(Admin)     |
+| PHP Package Manager | Composer                               |
+| js Package Manager  | npm                                    |
+| js packing & build  | Webpack, Laravel MIX                   |
+| css structuring     | SCSS                                   |
+| Javascript          | Vue, jQuery                            |
+| CSS                 | Bootstrp 4 or fluxlayout + Tailwindcss |
+
+if must installed, we use Electron.
 
 ## Communications
 
