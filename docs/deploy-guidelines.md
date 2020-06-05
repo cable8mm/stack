@@ -1,20 +1,20 @@
 # 배포 가이드라인
 
-ESC Company에서는 `Github`을 저장소로 `Laravel Envoyer`를 통해 실서비스로 배포됩니다.
+ESC Company에서는 [Github](https://github.com/esc-company)을 저장소로 [Envoyer](https://envoyer.io/)를 통해 실서비스로 배포됩니다.
 
 ## Libraries
 
 ### 제작자
 
-모든 코드는 테스트 코드가 작성되어야 하며, `Github Action`으로 검증되어야 합니다.
+모든 코드는 테스트 코드가 작성되어야 하며, [StyleCI](https://styleci.io/)와 `Github Action`으로 검증되어야 합니다.
 
-라이브러리도 예외는 아니며, 레포지토리 상단에 Github Action의 Build 뱃지를 추가하며, 배포 준비가 되면 `Packagist.org`에 등록 요청을 같은 저장소의 Issue를 통해서 개발팀 매니저에게 요청합니다.
+라이브러리도 예외는 아니며, 레포지토리 상단에 StyleCI와 Github Action의 Build 뱃지를 추가하며, 배포 준비가 되면 [packagist.org](https://packagist.org/)에 등록 요청을 같은 저장소의 Issue를 통해서 개발팀 매니저에게 요청합니다.
 
-요청을 할 때 이 라이브러리를 필요로 하는 동료 개발자가 있다면 그 개발자 이름으로 Reference를 넣으세요.
+요청을 할 때 이 라이브러리를 필요로 하는 동료 개발자가 있다면 그 개발자 이름으로 Reference를 넣어서 알람이 가게 합니다.
 
 ### 매니저
 
-개발팀 매니저는 요청받은 레포지토리를 `esc-company`를 prefix로 `Packagist.org`에 등록하고, packagist 뱃지를 README.md에 추가해야 한 후 Issue를 Close 합니다.
+개발팀 매니저는 요청받은 레포지토리를 `esc-company`를 prefix로 [packagist.org](https://packagist.org/)에 등록하고, packagist 뱃지를 README.md에 추가해야 한 후 Issue를 Close 합니다.
 
 매니저는 다음 체크리스트를 확인합니다.
 
@@ -30,7 +30,13 @@ ESC Company에서는 `Github`을 저장소로 `Laravel Envoyer`를 통해 실서
 
 ## Services
 
-서비스의 배포는 Laravel Envoyer를 이용합니다.
+서비스의 배포는 Envoyer를 이용하며, 스토리지의 경우 로컬의 리소스를 서버에 rsync로 업로드 합니다.
+
+```sh
+rsync -arvuz --exclude=".gitignore" ....../storage/app/public/ username@111.111.111.111:/home/username/projectname/current/storage/app/public
+```
+
+rsync 스크립트를 만들기 전에 서버의 배포 경로를 먼저 조정해야 한다는 사실을 유념하세요.
 
 ### Stage Server
 
@@ -56,7 +62,7 @@ ESC Company에서는 `Github`을 저장소로 `Laravel Envoyer`를 통해 실서
 
 ## 데이터베이스
 
-데이터베이스의 스키마를 수정하기 위해서 `Laravel Migration` 기능은 사용하지 않습니다.
+데이터베이스의 스키마를 수정하기 위해서 [Laravel Migration](https://laravel.com/docs/7.x/migrations) 기능은 사용하지 않습니다.
 
 데이터베이스 스키마 수정 방법 :
 
@@ -70,7 +76,7 @@ ESC Company에서는 `Github`을 저장소로 `Laravel Envoyer`를 통해 실서
 
 ### 라라벨 프로젝트
 
-`Laravel Forge`를 이용해서 설치하며, 그 이외의 방법은 허용되지 않습니다.
+[Forge](https://forge.laravel.com/)를 이용해서 설치하며, 그 이외의 방법은 허용되지 않습니다.
 
 ### 온프라미스
 
@@ -85,4 +91,4 @@ ESC Company에서는 `Github`을 저장소로 `Laravel Envoyer`를 통해 실서
 
 build.sh은 프로젝트의 `bin/` 폴더에 반드시 포함되어 있어야 합니다.
 
-Docker 파일은 Docker Hub에 등록하며, 배포파일을 별도로 관리하지 않습니다.
+Docker 파일은 [Docker Hub](https://hub.docker.com/)에 등록하며, 배포파일을 별도로 관리하지 않습니다.
