@@ -20,31 +20,31 @@ PHP의 코딩에 있어서 [PSR-1](https://psr.kkame.net/accepted/psr-1-basic-co
 
 ### 컨벤션
 
-|  | Case Type | Example |
-| :--- | :--- | :--- |
-| Classes | PascalCase | HolapetClass |
-| Methods | camelCase | holapetMethod |
-| Properties | camelCase | holapetProperty |
-| Constant | UPPER\_CASE\_SNAKE\_CASE | HOLAPET\_CONSTANT |
+|            | Case Type                | Example           |
+| :--------- | :----------------------- | :---------------- |
+| Classes    | PascalCase               | HolapetClass      |
+| Methods    | camelCase                | holapetMethod     |
+| Properties | camelCase                | holapetProperty   |
+| Constant   | UPPER\_CASE\_SNAKE\_CASE | HOLAPET\_CONSTANT |
 
 ### 폴더 규칙
 
 폴더 규칙은 [pds/skeleton](https://github.com/php-pds/skeleton)를 지켜야 합니다.
 
-|  | Folder Name | Example |
-| :--- | :--- | :--- |
-| Sources | src/ | src/HelapetClass.php |
-| Test Sources | tests/ | tests/holapetClassTest.php |
-| Configure | config/ | config/config.php |
-| Resource Files | resources/ | resources/app.css |
-| Execute Files | bin/ | bin/process\_join\_user\_count |
-| Documents | docs/ | docs/how-to-build.md |
+|                | Folder Name | Example                        |
+| :------------- | :---------- | :----------------------------- |
+| Sources        | src/        | src/HelapetClass.php           |
+| Test Sources   | tests/      | tests/holapetClassTest.php     |
+| Configure      | config/     | config/config.php              |
+| Resource Files | resources/  | resources/app.css              |
+| Execute Files  | bin/        | bin/process\_join\_user\_count |
+| Documents      | docs/       | docs/how-to-build.md           |
 
 ### 이미 예약된 파일 이름
 
-|  | Folder Name |
-| :--- | :--- |
-| Information | README.md |
+|             | Folder Name |
+| :---------- | :---------- |
+| Information | README.md   |
 
 ### Composer 네임스페이스
 
@@ -76,17 +76,17 @@ function getC(): C {
 
 모든 주석은 [phpdoc.org의 최신판](https://docs.phpdoc.org/latest/)에서 제공하는 규격을 정확히 따라야 합니다.
 
-특히 인라인 태그 레퍼런스와 태그 레퍼런스의 이미에 맞는 태그를 사용하세요.
+특히 인라인 태그 레퍼런스와 태그 레퍼런스의 의미에 맞는 태그를 사용하세요.
 
 인라인 태그 레퍼런스 :
 
-|  | Example |
-| :--- | :--- |
-| @example | @example example1.php Counting in action. |
-| @internal | @internal |
-| @inheritdoc | @inheritdoc |
-| @link | @link [http://example.com/my/bar](http://example.com/my/bar) Documentation of Foo. |
-| @see | @see [http://example.com/my/bar](http://example.com/my/bar) Documentation of Foo. &lt;br&gt;@see MyClass::$items           For the property whose items are counted. |
+|             | Example                                                                                                                                                      |
+| :---------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| @example    | @example example1.php Counting in action.                                                                                                                    |
+| @internal   | @internal                                                                                                                                                    |
+| @inheritdoc | @inheritdoc                                                                                                                                                  |
+| @link       | @link [http://example.com/my/bar](http://example.com/my/bar) Documentation of Foo.                                                                           |
+| @see        | @see [http://example.com/my/bar](http://example.com/my/bar) Documentation of Foo. / @see MyClass::$items           For the property whose items are counted. |
 
 태그 레퍼런스 :
 
@@ -121,7 +121,7 @@ function getC(): C {
 @version
 ```
 
-주석의 타입에서 mixed는 2019년 2월 7일 PHP RFC를 통해서 명확히 정의가 되었으므로, 다른 의미로 절대 사용하지 않습니다.
+주석의 타입에서 [mixed는 2019년 2월 7일 PHP RFC를 통해서 명확히 정의](https://wiki.php.net/rfc/mixed-typehint)가 되었으므로, 다른 의미로 절대 사용하지 않습니다.
 
 ```text
 // Good
