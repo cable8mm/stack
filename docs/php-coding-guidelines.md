@@ -228,3 +228,97 @@ return PhpCsFixer\Config::create()
 ->setLineEnding("\n");
 ```
 
+### VSCode Setting Example
+
+```json
+{
+    "git.autofetch": true,
+    "php.validate.executablePath": "/usr/local/bin/php",
+    "git.confirmSync": false,
+    "php-cs-fixer.rules": "@PhpCsFixer",
+    "php-cs-fixer.executablePath": "php-cs-fixer",
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer",
+        "editor.formatOnSave": true
+    },
+    "markdown.preview.scrollEditorWithPreview": false,
+    "editor.minimap.enabled": false,
+    "explorer.openEditors.visible": 0,
+    "editor.fontSize": 14,
+    "workbench.startupEditor": "newUntitledFile",
+    "files.associations": {        
+        "*.ctp": "php",
+        "*.json": "jsonc",
+        "*.min.js": "plaintext",
+        "*.min.css": "plaintext",
+        "*.php_cs": "php"
+    },
+    "explorer.confirmDelete": false,
+    "workbench.activityBar.visible": true,
+    "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+    "emmet.triggerExpansionOnTab": true,
+    "blade.format.enable": true,
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json",
+                "jsonc"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+        },
+        "css": [
+            "css",
+            "less",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html",
+            "blade"
+        ]
+    },
+    "typescript.tsserver.log": "terse",
+    "npm.packageManager": "yarn",
+    "prettier.packageManager": "yarn",
+    "eslint.packageManager": "yarn",
+    "eslint.run": "onSave",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "window.zoomLevel": 0,
+    "intelephense.format.enable": false,
+    "php-cs-fixer.documentFormattingProvider": true,
+    "php-cs-fixer.formatHtml": true,
+    "php-cs-fixer.config": "/Users/cable8mm/.vscode/.php_cs",
+    "intelephense.environment.documentRoot": "public",
+    "intelephense.trace.server": "messages",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/node_modules": true,
+        "vendor": true
+    },
+    "intelephense.environment.phpVersion": "7.3.14",
+    "editor.rulers": [],
+    "editor.fontFamily": "'IBM Plex Mono', Menlo, Monaco, 'Courier New', monospace",
+    "workbench.iconTheme": "material-icon-theme",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnSave": true,
+    "typescript.format.enable": false,
+    "[blade]": {
+        "editor.defaultFormatter": "onecentlin.laravel-blade",
+        "editor.formatOnSave": false
+    },
+    "php-docblocker.qualifyClassNames": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "git.enableCommitSigning": true,
+    "workbench.colorTheme": "Laravel Extra - Github",
+    "markdown.extension.toc.levels": "2..6"
+}
+```

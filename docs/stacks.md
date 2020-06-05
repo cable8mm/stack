@@ -27,6 +27,13 @@
 
 if must installed, we use Electron.
 
+## Project Management
+
+| Title           | Description |
+| :-------------- | :---------- |
+| Development     | Github      |
+| Non-Development | Trello      |
+
 ## Communications
 
 | Title            | Description                   |
@@ -74,9 +81,23 @@ if must installed, we use Electron.
 
 ## Editors & Tools
 
-| Title        | Description      |
-| :----------- | :--------------- |
-| PHP          | VSCode, PHPSTORM |
-| Swift        | XCode, VSCode    |
-| Android Java | Android Studio   |
-| Graphics     | Adobe CC         |
+| Title                    | Description                            |
+| :----------------------- | :------------------------------------- |
+| PHP                      | VSCode, PHPSTORM                       |
+| Swift                    | XCode, VSCode                          |
+| Android Java             | Android Studio                         |
+| Graphics                 | Adobe CC                               |
+| Development Document     | VSCode + Markdown All in One extension |
+| Non-Development Document | MS Office, 아래아한글                  |
+| Presentation             | Keynote, PowerPoint                    |
+
+### VSCode Extention
+
+| Title          | Description                                                                                                 |
+| :------------- | :---------------------------------------------------------------------------------------------------------- |
+| Style          | php cs fixer, Beautify, Laravel Blade, DotENV Snippets, JavaScript (ES6) code snippet                       |
+| Convinient     | PHP Intelephense, Laravel goto view, laravel-blade, laravel-goto-controller, Advanced-new-file, Code Runner |
+| Debug          | PHP Debug, PHPUnit                                                                                          |
+| Source Version | GitLens                                                                                                     |
+| Comment        | PHP DocBlocker                                                                                              |
+| Grammer        | 단디 - 한국어 맞춤법 검사기                                                                                 |
