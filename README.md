@@ -1,5 +1,6 @@
 # Introduction
 
+![Markdown Validate](https://github.com/esc-company/helloworld/workflows/Markdown%20Validate/badge.svg)
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
 [cc-by]: https://creativecommons.org/licenses/by/2.0/kr/deed.ko
