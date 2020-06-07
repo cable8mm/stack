@@ -29,24 +29,6 @@
 
 if must installed, we use Electron.
 
-## Project Management
-
-| Title           | Description |
-| :-------------- | :---------- |
-| Development     | Github      |
-| Non-Development | Trello      |
-
-## Communications
-
-| Title            | Description                   |
-| :--------------- | :---------------------------- |
-| Development      | Github Issue + comment, Email |
-| Alarm            | Slack                         |
-| Non-Development  | Email + KakaoTalk             |
-| Video Conference | Zoom                          |
-| Screen Sharing   | Team Viewer                   |
-| Intranet         | Office 365                    |
-
 ## Third-Party Package
 
 | Title                    | Description             |
@@ -59,22 +41,24 @@ if must installed, we use Electron.
 
 ## Third-Party Services
 
-| Title              | Description                            |
-| :----------------- | :------------------------------------- |
-| Email              | AWS SES                                |
-| DNS                | AWS Route53                            |
-| Mall               | GodoMall pro+                          |
-| Mall Operation     | Playauto                               |
-| Second Good Center | Junglebook API                         |
-| Server Status      | OhDear                                 |
-| Deploy             | Envoyer                                |
-| Server Setting     | Forge                                  |
-| Source Repository  | Github                                 |
-| Style Checker      | StyleCI                                |
-| Manual & Essay     | Gitbook                                |
-| Analytics          | Google Tag Manager, Google Data Studio |
-| Mall Analytics     | AceCounter                             |
-| Advertising        | Facebook Pixel, Kakao Moment Pixel     |
+| Title               | Description                                       |
+| :------------------ | :------------------------------------------------ |
+| Email               | AWS SES                                           |
+| Remote Notification | OneSignal                                         |
+| DNS                 | AWS Route53                                       |
+| Mall                | GodoMall pro+                                     |
+| Mall Operation      | Playauto                                          |
+| Second Good Center  | Junglebook API                                    |
+| Social              | Kakao REST API, Naver REST API, Facebook REST API |
+| Server Status       | OhDear                                            |
+| Deploy              | Envoyer                                           |
+| Server Setting      | Forge                                             |
+| Source Repository   | Github                                            |
+| Style Checker       | StyleCI                                           |
+| Manual & Essay      | Gitbook                                           |
+| Analytics           | Google Tag Manager, Google Data Studio            |
+| Mall Analytics      | AceCounter                                        |
+| Advertising         | Facebook Pixel, Kakao Moment Pixel                |
 
 ## Machines & Devices
 
@@ -107,3 +91,21 @@ if must installed, we use Electron.
 | Source Version | GitLens                                                                                                     |
 | Comment        | PHP DocBlocker                                                                                              |
 | Grammar        | 단디 - 한국어 맞춤법 검사기                                                                                 |
+
+## Management
+
+| Title           | Description |
+| :-------------- | :---------- |
+| Development     | Github      |
+| Non-Development | Trello      |
+
+## Communications
+
+| Title            | Description       |
+| :--------------- | :---------------- |
+| Development      | Github Issue + PR |
+| Alarm            | Slack             |
+| Non-Development  | Email + KakaoTalk |
+| Video Conference | Zoom              |
+| Screen Sharing   | Team Viewer       |
+| Intranet         | Office 365        |
