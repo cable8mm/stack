@@ -1,6 +1,6 @@
 # PHP 코딩 가이드라인
 
-ESC Company에서 개발할 때 지켜야 하는 가이드라인을 설명합니다.
+> {tip} ESC Company에서 개발할 때 지켜야 하는 가이드라인을 설명합니다.
 
 - [일반적인 PHP 룰](#일반적인-php-룰)
   - [컨벤션](#컨벤션)
@@ -15,9 +15,9 @@ ESC Company에서 개발할 때 지켜야 하는 가이드라인을 설명합니
 
 ## 일반적인 PHP 룰
 
-ESC Company에서는 PHP 7.3 이상을 기반으로 합니다.
-
 PHP의 코딩에 있어서 [PSR-1](https://psr.kkame.net/accepted/psr-1-basic-coding-standard), PSR-2, [PSR-12](https://psr.kkame.net/accepted/psr-12-extended-coding-style-guide)는 반드시 지켜져야 합니다.
+
+> {tip} ESC Company의 공식 사용 버전은 PHP 7.3.x 이며, DB 서버를 제외하고 상시 버전업 됩니다.
 
 ### 컨벤션
 
