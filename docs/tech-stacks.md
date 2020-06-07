@@ -31,34 +31,34 @@ if must installed, we use Electron.
 
 ## Third-Party Package
 
-| Title                    | Description             |
-| :----------------------- | :---------------------- |
-| Development Environment  | Valet                   |
-| Admin                    | Nova                    |
-| Cache & Image Processing | Google PageSpeed Module |
-| Server Monitoring        | Gabia                   |
-| SMS                      | LGU Plus                |
+| Title                    | Description                                       |
+| :----------------------- | :------------------------------------------------ |
+| Development Environment  | Valet                                             |
+| Admin                    | Nova                                              |
+| Cache & Image Processing | Google PageSpeed Module                           |
+| Server Monitoring        | Gabia                                             |
+| SMS                      | LGU Plus                                          |
+| Social                   | Kakao REST API, Naver REST API, Facebook REST API |
 
 ## Third-Party Services
 
-| Title               | Description                                       |
-| :------------------ | :------------------------------------------------ |
-| Email               | AWS SES                                           |
-| Remote Notification | OneSignal                                         |
-| DNS                 | AWS Route53                                       |
-| Mall                | GodoMall pro+                                     |
-| Mall Operation      | Playauto                                          |
-| Second Good Center  | Junglebook API                                    |
-| Social              | Kakao REST API, Naver REST API, Facebook REST API |
-| Server Status       | OhDear                                            |
-| Deploy              | Envoyer                                           |
-| Server Setting      | Forge                                             |
-| Source Repository   | Github                                            |
-| Style Checker       | StyleCI                                           |
-| Manual & Essay      | Gitbook                                           |
-| Analytics           | Google Tag Manager, Google Data Studio            |
-| Mall Analytics      | AceCounter                                        |
-| Advertising         | Facebook Pixel, Kakao Moment Pixel                |
+| Title               | Description                            |
+| :------------------ | :------------------------------------- |
+| Email               | AWS SES                                |
+| Remote Notification | OneSignal                              |
+| DNS                 | AWS Route53                            |
+| Mall                | GodoMall pro+                          |
+| Mall Operation      | Playauto                               |
+| Second Good Center  | Junglebook API                         |
+| Server Status       | OhDear                                 |
+| Deploy              | Envoyer                                |
+| Server Setting      | Forge                                  |
+| Source Repository   | Github                                 |
+| Style Checker       | StyleCI                                |
+| Manual & Essay      | Gitbook                                |
+| Analytics           | Google Tag Manager, Google Data Studio |
+| Mall Analytics      | AceCounter                             |
+| Advertising         | Facebook Pixel, Kakao Moment Pixel     |
 
 ## Machines & Devices
 
