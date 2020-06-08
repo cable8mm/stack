@@ -2,17 +2,6 @@
 
 > {tip} ESC Company에서 개발할 때 지켜야 하는 가이드라인을 설명합니다.
 
-- [일반적인 PHP 룰](#일반적인-php-룰)
-  - [컨벤션](#컨벤션)
-  - [폴더 규칙](#폴더-규칙)
-  - [이미 예약된 파일 이름](#이미-예약된-파일-이름)
-  - [Composer 네임스페이스](#composer-네임스페이스)
-  - [타입과 주석](#타입과-주석)
-  - [삼항 연산자\(Ternary operators\)와 복수 파라미터](#삼항-연산자ternary-operators와-복수-파라미터)
-- [에디터 설정](#에디터-설정)
-  - [스타일 픽서](#스타일-픽서)
-  - [VSCode Setting Example](#vscode-setting-example)
-
 ## 일반적인 PHP 룰
 
 PHP의 코딩에 있어서 [PSR-1](https://psr.kkame.net/accepted/psr-1-basic-coding-standard), PSR-2, [PSR-12](https://psr.kkame.net/accepted/psr-12-extended-coding-style-guide)는 반드시 지켜져야 합니다.

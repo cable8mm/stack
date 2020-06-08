@@ -2,16 +2,6 @@
 
 [![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/esc-company/esc-company)
 
-- [Languages, Server](#languages-server)
-- [Web](#web)
-- [Third-Party Package](#third-party-package)
-- [Third-Party Services](#third-party-services)
-- [Machines & Devices](#machines--devices)
-- [Editors & Tools](#editors--tools)
-  - [VSCode Extention](#vscode-extention)
-- [Management](#management)
-- [Communications](#communications)
-
 ## Languages, Server
 
 | Title           | Description                                         |

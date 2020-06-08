@@ -1,18 +1,5 @@
 # 배포 가이드라인
 
-- [Libraries](#libraries)
-  - [제작자](#제작자)
-  - [매니저](#매니저)
-  - [라이브러리 이용자](#라이브러리-이용자)
-- [Services](#services)
-  - [Stage Server](#stage-server)
-  - [Live Server](#live-server)
-- [데이터베이스](#데이터베이스)
-- [배포용 서버](#배포용-서버)
-  - [라라벨 프로젝트](#라라벨-프로젝트)
-  - [온프라미스](#온프라미스)
-  - [MSA](#msa)
-
 ESC Company에서는 [Github](https://github.com/esc-company)을 저장소로 [Envoyer](https://envoyer.io/)를 통해 실서비스로 배포됩니다.
 
 ## Libraries
