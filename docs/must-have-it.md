@@ -30,9 +30,7 @@
 
 ## 레퍼런스 & 가이드
 
-| 타이틀 | 설명                                                                                                     |
-| ------ | -------------------------------------------------------------------------------------------------------- |
-| 영어   | 공식 레퍼런스를 영문으로 읽을 수 있거나 읽어야 한다는 강한 욕망이 있어야 합니다.                         |
-| 공식   | 어떤 언어, 프레임워크, 시스템 등의 자료를 찾을 때 공식 레퍼런스나 가이드를 우선 확인할 수 있어야 합니다. |
-| 리스트 | W3C drift, PHP.net document, Laravel Document, Apple Developer Document, Android Developer Document      |
+1. 공식 레퍼런스를 영문으로 읽을 수 있거나 읽어야 한다는 강한 욕망이 있어야 합니다.
+2. 어떤 언어, 프레임워크, 시스템 등의 자료를 찾을 때 공식 레퍼런스나 가이드를 우선 확인할 수 있어야 합니다.
+3. W3C drift, PHP.net document, Laravel Document, Apple Developer Document, Android Developer Document 등 자신의 주력 언어나 프레임워크의 공식 문서는 반복적으로 읽어야 합니다.
 
