@@ -5,3 +5,7 @@
 * [배포 가이드라인](deploy-guidelines.md)
 * [기술 스택(Tech Stacks)](tech-stacks.md)
 * [기술 소양](must-have-it.md)
+
+## Prosentations
+
+* [최신 IT 컴퍼니 트랜드](presentation.md)
