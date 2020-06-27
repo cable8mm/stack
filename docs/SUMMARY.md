@@ -8,4 +8,4 @@
 
 ## Prosentations
 
-* [최신 IT 컴퍼니 트랜드](presentation.md)
+* [최신 IT 컴퍼니 트랜드](presentation.md#lets-make-unicorn)
