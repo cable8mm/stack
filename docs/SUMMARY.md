@@ -6,6 +6,10 @@
 * [기술 스택(Tech Stacks)](tech-stacks.md)
 * [기술 소양](must-have-it.md)
 
+## 올라펫 업무 규칙
+
+* [이메일 협업](how-to-emailing.md)
+
 ## 서비스
 
 * [올라펫x올라펫샵](holapet-with-shop.md)
