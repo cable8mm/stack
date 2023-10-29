@@ -1,6 +1,6 @@
 # 배포 가이드라인
 
-ESC Company에서는 [Github](https://github.com/esc-company)을 저장소로 [Envoyer](https://envoyer.io/)를 통해 실서비스로 배포됩니다.
+회사에서는 [Github](https://github.com/cable8mm)을 저장소로 [Envoyer](https://envoyer.io/)를 통해 실서비스로 배포됩니다.
 
 ## Libraries
 
@@ -16,7 +16,7 @@ ESC Company에서는 [Github](https://github.com/esc-company)을 저장소로 [E
 
 ### 매니저
 
-개발팀 매니저는 요청받은 레포지토리를 `esc-company`를 prefix로 [packagist.org](https://packagist.org/)에 등록하고, packagist 뱃지를 README.md에 추가해야 한 후 Issue를 Close 합니다.
+개발팀 매니저는 요청받은 레포지토리를 `cable8mm`를 prefix로 [packagist.org](https://packagist.org/)에 등록하고, packagist 뱃지를 README.md에 추가해야 한 후 Issue를 Close 합니다.
 
 매니저는 다음 체크리스트를 확인합니다.
 
