@@ -50,7 +50,7 @@ rsync 스크립트를 만들기 전에 서버의 배포 경로를 먼저 조정�
 
 오후 7시 이후에는 자동으로 스테이지 서버가 닫히니 참고하세요.
 
-![올라펫 서비스의 스테이지서버 닫혔을 때 스크린샷](../.gitbook/assets/stage-server-closed.png)
+![서비스의 스테이지서버 닫혔을 때 스크린샷](../.gitbook/assets/stage-server-closed.png)
 
 ### Live Server
 

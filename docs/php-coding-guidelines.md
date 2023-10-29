@@ -12,10 +12,10 @@ PHP의 코딩에 있어서 [PSR-1](https://psr.kkame.net/accepted/psr-1-basic-co
 
 |            | Case Type             | Example          |
 | :--------- | :-------------------- | :--------------- |
-| Classes    | PascalCase            | HolapetClass     |
-| Methods    | camelCase             | holapetMethod    |
-| Properties | camelCase             | holapetProperty  |
-| Constant   | UPPER_CASE_SNAKE_CASE | HOLAPET_CONSTANT |
+| Classes    | PascalCase            | StartupClass     |
+| Methods    | camelCase             | startupMethod    |
+| Properties | camelCase             | startupProperty  |
+| Constant   | UPPER_CASE_SNAKE_CASE | STARTUP_CONSTANT |
 
 ### 폴더 규칙
 
@@ -23,8 +23,8 @@ PHP의 코딩에 있어서 [PSR-1](https://psr.kkame.net/accepted/psr-1-basic-co
 
 |                | Folder Name | Example                     |
 | :------------- | :---------- | :-------------------------- |
-| Sources        | src/        | src/HelapetClass.php        |
-| Test Sources   | tests/      | tests/holapetClassTest.php  |
+| Sources        | src/        | src/StartupClass.php        |
+| Test Sources   | tests/      | tests/StartupClassTest.php  |
 | Configure      | config/     | config/config.php           |
 | Resource Files | resources/  | resources/app.css           |
 | Execute Files  | bin/        | bin/process_join_user_count |
