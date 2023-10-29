@@ -1,34 +1,34 @@
 # PHP 코딩 가이드라인
 
-> {tip} ESC Company에서 개발할 때 지켜야 하는 가이드라인을 설명합니다.
+> {tip} 사내 혹은 그룹에서 개발할 때 지켜야 하는 가이드라인을 설명합니다.
 
 ## 일반적인 PHP 룰
 
 PHP의 코딩에 있어서 [PSR-1](https://psr.kkame.net/accepted/psr-1-basic-coding-standard), PSR-2, [PSR-12](https://psr.kkame.net/accepted/psr-12-extended-coding-style-guide)는 반드시 지켜져야 합니다.
 
-> {tip} ESC Company의 공식 사용 버전은 PHP 7.3.x 이며, DB 서버를 제외하고 상시 버전업 됩니다.
+> {tip} 사내 혹은 그룹의 공식 사용 버전은 PHP 7.3.x 이며, DB 서버를 제외하고 상시 버전업 됩니다.
 
 ### 컨벤션
 
-|            | Case Type                | Example           |
-| :--------- | :----------------------- | :---------------- |
-| Classes    | PascalCase               | HolapetClass      |
-| Methods    | camelCase                | holapetMethod     |
-| Properties | camelCase                | holapetProperty   |
-| Constant   | UPPER\_CASE\_SNAKE\_CASE | HOLAPET\_CONSTANT |
+|            | Case Type             | Example          |
+| :--------- | :-------------------- | :--------------- |
+| Classes    | PascalCase            | HolapetClass     |
+| Methods    | camelCase             | holapetMethod    |
+| Properties | camelCase             | holapetProperty  |
+| Constant   | UPPER_CASE_SNAKE_CASE | HOLAPET_CONSTANT |
 
 ### 폴더 규칙
 
 폴더 규칙은 [pds/skeleton](https://github.com/php-pds/skeleton)를 지켜야 합니다.
 
-|                | Folder Name | Example                        |
-| :------------- | :---------- | :----------------------------- |
-| Sources        | src/        | src/HelapetClass.php           |
-| Test Sources   | tests/      | tests/holapetClassTest.php     |
-| Configure      | config/     | config/config.php              |
-| Resource Files | resources/  | resources/app.css              |
-| Execute Files  | bin/        | bin/process\_join\_user\_count |
-| Documents      | docs/       | docs/how-to-build.md           |
+|                | Folder Name | Example                     |
+| :------------- | :---------- | :-------------------------- |
+| Sources        | src/        | src/HelapetClass.php        |
+| Test Sources   | tests/      | tests/holapetClassTest.php  |
+| Configure      | config/     | config/config.php           |
+| Resource Files | resources/  | resources/app.css           |
+| Execute Files  | bin/        | bin/process_join_user_count |
+| Documents      | docs/       | docs/how-to-build.md        |
 
 ### 이미 예약된 파일 이름
 
@@ -70,13 +70,13 @@ function getC(): C {
 
 인라인 태그 레퍼런스 :
 
-|             | Example                                                                                                                                                      |
-| :---------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| @example    | @example example1.php Counting in action.                                                                                                                    |
-| @internal   | @internal                                                                                                                                                    |
-| @inheritdoc | @inheritdoc                                                                                                                                                  |
-| @link       | @link [http://example.com/my/bar](http://example.com/my/bar) Documentation of Foo.                                                                           |
-| @see        | @see [http://example.com/my/bar](http://example.com/my/bar) Documentation of Foo. / @see MyClass::$items           For the property whose items are counted. |
+|             | Example                                                                                                                                            |
+| :---------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| @example    | @example example1.php Counting in action.                                                                                                          |
+| @internal   | @internal                                                                                                                                          |
+| @inheritdoc | @inheritdoc                                                                                                                                        |
+| @link       | @link [http://example.com/my/bar](http://example.com/my/bar) Documentation of Foo.                                                                 |
+| @see        | @see [http://example.com/my/bar](http://example.com/my/bar) Documentation of Foo. / @see MyClass::$items For the property whose items are counted. |
 
 태그 레퍼런스 :
 
@@ -157,7 +157,7 @@ compact(
 
 ### 스타일 픽서
 
-VSCode에서는 [php\_cs\_fixer를 설치](https://github.com/junstyle/vscode-php-cs-fixer)하며, 아래와 같은 설정을 이용합니다.
+VSCode에서는 [php_cs_fixer를 설치](https://github.com/junstyle/vscode-php-cs-fixer)하며, 아래와 같은 설정을 이용합니다.
 
 ```php
 <?php
@@ -222,93 +222,78 @@ return PhpCsFixer\Config::create()
 
 ```json
 {
-    "git.autofetch": true,
-    "php.validate.executablePath": "/usr/local/bin/php",
-    "git.confirmSync": false,
-    "php-cs-fixer.rules": "@PhpCsFixer",
-    "php-cs-fixer.executablePath": "php-cs-fixer",
-    "[php]": {
-        "editor.defaultFormatter": "junstyle.php-cs-fixer",
-        "editor.formatOnSave": true
+  "git.autofetch": true,
+  "php.validate.executablePath": "/usr/local/bin/php",
+  "git.confirmSync": false,
+  "php-cs-fixer.rules": "@PhpCsFixer",
+  "php-cs-fixer.executablePath": "php-cs-fixer",
+  "[php]": {
+    "editor.defaultFormatter": "junstyle.php-cs-fixer",
+    "editor.formatOnSave": true
+  },
+  "markdown.preview.scrollEditorWithPreview": false,
+  "editor.minimap.enabled": false,
+  "explorer.openEditors.visible": 0,
+  "editor.fontSize": 14,
+  "workbench.startupEditor": "newUntitledFile",
+  "files.associations": {
+    "*.ctp": "php",
+    "*.json": "jsonc",
+    "*.min.js": "plaintext",
+    "*.min.css": "plaintext",
+    "*.php_cs": "php"
+  },
+  "explorer.confirmDelete": false,
+  "workbench.activityBar.visible": true,
+  "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
+  "emmet.triggerExpansionOnTab": true,
+  "blade.format.enable": true,
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "json", "jsonc"],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
     },
-    "markdown.preview.scrollEditorWithPreview": false,
-    "editor.minimap.enabled": false,
-    "explorer.openEditors.visible": 0,
-    "editor.fontSize": 14,
-    "workbench.startupEditor": "newUntitledFile",
-    "files.associations": {        
-        "*.ctp": "php",
-        "*.json": "jsonc",
-        "*.min.js": "plaintext",
-        "*.min.css": "plaintext",
-        "*.php_cs": "php"
-    },
-    "explorer.confirmDelete": false,
-    "workbench.activityBar.visible": true,
-    "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly",
-    "emmet.triggerExpansionOnTab": true,
-    "blade.format.enable": true,
-    "beautify.language": {
-        "js": {
-            "type": [
-                "javascript",
-                "json",
-                "jsonc"
-            ],
-            "filename": [
-                ".jshintrc",
-                ".jsbeautifyrc"
-            ]
-        },
-        "css": [
-            "css",
-            "less",
-            "scss"
-        ],
-        "html": [
-            "htm",
-            "html",
-            "blade"
-        ]
-    },
-    "typescript.tsserver.log": "terse",
-    "npm.packageManager": "yarn",
-    "prettier.packageManager": "yarn",
-    "eslint.packageManager": "yarn",
-    "eslint.run": "onSave",
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "window.zoomLevel": 0,
-    "intelephense.format.enable": false,
-    "php-cs-fixer.documentFormattingProvider": true,
-    "php-cs-fixer.formatHtml": true,
-    "php-cs-fixer.config": "/Users/cable8mm/.vscode/.php_cs",
-    "intelephense.environment.documentRoot": "public",
-    "intelephense.trace.server": "messages",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "files.exclude": {
-        "**/node_modules": true,
-        "vendor": true
-    },
-    "intelephense.environment.phpVersion": "7.3.14",
-    "editor.rulers": [],
-    "editor.fontFamily": "'IBM Plex Mono', Menlo, Monaco, 'Courier New', monospace",
-    "workbench.iconTheme": "material-icon-theme",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.formatOnSave": true,
-    "typescript.format.enable": false,
-    "[blade]": {
-        "editor.defaultFormatter": "onecentlin.laravel-blade",
-        "editor.formatOnSave": false
-    },
-    "php-docblocker.qualifyClassNames": true,
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "git.enableCommitSigning": true,
-    "workbench.colorTheme": "Laravel Extra - Github",
-    "markdown.extension.toc.levels": "2..6"
+    "css": ["css", "less", "scss"],
+    "html": ["htm", "html", "blade"]
+  },
+  "typescript.tsserver.log": "terse",
+  "npm.packageManager": "yarn",
+  "prettier.packageManager": "yarn",
+  "eslint.packageManager": "yarn",
+  "eslint.run": "onSave",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "window.zoomLevel": 0,
+  "intelephense.format.enable": false,
+  "php-cs-fixer.documentFormattingProvider": true,
+  "php-cs-fixer.formatHtml": true,
+  "php-cs-fixer.config": "/Users/cable8mm/.vscode/.php_cs",
+  "intelephense.environment.documentRoot": "public",
+  "intelephense.trace.server": "messages",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/node_modules": true,
+    "vendor": true
+  },
+  "intelephense.environment.phpVersion": "7.3.14",
+  "editor.rulers": [],
+  "editor.fontFamily": "'IBM Plex Mono', Menlo, Monaco, 'Courier New', monospace",
+  "workbench.iconTheme": "material-icon-theme",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.formatOnSave": true,
+  "typescript.format.enable": false,
+  "[blade]": {
+    "editor.defaultFormatter": "onecentlin.laravel-blade",
+    "editor.formatOnSave": false
+  },
+  "php-docblocker.qualifyClassNames": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "git.enableCommitSigning": true,
+  "workbench.colorTheme": "Laravel Extra - Github",
+  "markdown.extension.toc.levels": "2..6"
 }
 ```

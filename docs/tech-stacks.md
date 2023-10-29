@@ -1,7 +1,5 @@
 # 기술 스택(Tech Stacks)
 
-[![StackShare](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/esc-company/esc-company)
-
 ## Languages, Server
 
 | Title           | Description                                         |
