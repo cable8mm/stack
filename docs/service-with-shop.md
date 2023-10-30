@@ -19,7 +19,7 @@ sequenceDiagram
     S->>+C: 전화번호 & 이메일 전송
     Note left of C: 회원간 매칭
     C->>-User: 지능형 위젯 노출
-    Note over C,S: 사료, 간식, 패드 등으로 주기적 소비 파악
+    Note over C,S: 상품 분류 기준으로 주기적 소비 파악
     loop Every day
         S-->C: 동기화 후 지능형 위젯 스케쥴링
         C->>User: 지능형 위젯 갱신
