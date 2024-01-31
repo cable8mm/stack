@@ -1,0 +1,48 @@
+
+FILE: docs/control-inventory.md
+
+0 links checked.
+
+FILE: docs/tech-stacks.md
+
+0 links checked.
+
+FILE: docs/README.md
+
+0 links checked.
+
+FILE: docs/deploy-guidelines.md
+
+9 links checked.
+
+FILE: docs/presentation.md
+
+1 links checked.
+
+FILE: docs/php-coding-guidelines.md
+
+6 links checked.
+
+FILE: docs/SUMMARY.md
+
+11 links checked.
+
+FILE: docs/service-with-shop.md
+
+3 links checked.
+
+FILE: docs/how-to-emailing.md
+
+0 links checked.
+
+FILE: docs/inventory-monthly-closing.md
+
+0 links checked.
+
+FILE: docs/must-have-it.md
+
+0 links checked.
+
+FILE: docs/placing-order-wearing-process.md
+
+0 links checked.
