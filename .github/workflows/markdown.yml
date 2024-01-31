@@ -1,24 +1,21 @@
-name: Markdown Validate
+name: Check Markdown links
 
-on:
-  workflow_dispatch:
-  push:
-    branches-ignore:
-      - "dependabot/npm_and_yarn/*"
+on: push
 
 jobs:
-  build:
+  markdown-link-check:
     runs-on: ubuntu-latest
 
     steps:
-      - name: markdown-link-check
-        uses: gaurav-nelson/github-action-markdown-link-check@1.0.3
-
-      - name: Markdown Linting Action
-        uses: avto-dev/markdown-lint@v1.2.0
-
+      - uses: actions/checkout@master
+      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: "yes"
+          use-verbose-mode: "yes"
+          folder-path: "docs"
+          max-depth: 1
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: PHP Linting (Pint)
+          commit_message: Run markdown validation
           skip_fetch: true
