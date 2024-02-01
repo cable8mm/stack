@@ -37,7 +37,8 @@
   
 ## 비즈니스 <a id="business"></a>
 
-* [서비스x스토어](business/service-with-shop.md)
+- [서비스x스토어](business/service-with-shop.md)
+
 - [발주입고 프로세스](business/placing-order-wearing-process.md)
 - [재고월마감 프로세스](business/inventory-monthly-closing.md)
 - [재고조정 프로세스](business/control-inventory.md)
