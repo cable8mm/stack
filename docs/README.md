@@ -1,5 +1,22 @@
+---
+description: Share your stacks and stories
+---
+
 # Introduce
 
-이 곳은 스타트업을 위한 stack과 culture의 한 예를 정리한 공간입니다.
+For read in convenient : [Gitbook](https://stack.palgle.com)
 
-이 곳의 콘텐츠로 사내의 개발 환경과 워크플로, 배포 환경을 공유하고 개선하며, 미래의 개발자로 오실 분들이 사내의 개발 업무의 대략적이지만 실무적인 내용을 공유받았으면 좋겠습니다.
+```php
+Route::redirect('/')->away('https://stack.palgle.com');
+```
+
+For issue : [Github](https://github.com/cable8mm/stack/issues)
+
+```php
+Route::middleware('auth:love-developer')->group(function () {
+    Route::redirect('/question', '/cable8mm/stack/issues');
+    Route::redirect('/edit-or-write', '/cable8mm/stack/pulls');
+});
+```
+
+Share your stacks and stories!
