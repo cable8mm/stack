@@ -60,7 +60,7 @@ After we have reviewed your contents, it would be merged and published.
 ```sh
 brew install markdownlint-cli
 
-find . -name \*.md -print0 | xargs -0 -n1 markdownlint
+markdownlint-cli2 --config .markdownlint.json --fix "docs/**/*.md"
 ```
 
 ```sh
