@@ -19,7 +19,3 @@
 * [발주입고 프로세스](placing-order-wearing-process.md)
 * [재고월마감 프로세스](inventory-monthly-closing.md)
 * [재고조정 프로세스](control-inventory.md)
-
-## Prosentations
-
-* [최신 IT 컴퍼니 트랜드](prosentations/it.md)
