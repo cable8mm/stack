@@ -2,6 +2,10 @@
 
 [![Markdown Validate](https://github.com/cable8mm/stack/actions/workflows/markdown-validate.yml/badge.svg)](https://github.com/cable8mm/stack/actions/workflows/markdown-validate.yml)
 [![Check Markdown links](https://github.com/cable8mm/stack/actions/workflows/markdown-link-check.yml/badge.svg)](https://github.com/cable8mm/stack/actions/workflows/markdown-link-check.yml)
+![GitHub Release](https://img.shields.io/github/v/release/cable8mm/stack)
+![GitHub commits since latest release](https://img.shields.io/github/commits-since/cable8mm/stack/latest)
+![GitHub contributors](https://img.shields.io/github/contributors/cable8mm/stack)
+[![Publish](https://img.shields.io/badge/publish_gitbook)](https://stack.palgle.com)
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
 [cc-by]: https://creativecommons.org/licenses/by/2.0/kr/deed.ko
