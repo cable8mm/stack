@@ -15,17 +15,24 @@
 - [라라벨 노바 훑어보기](laravel-echo-system/nova-preview.md)
 - [라라벨 노바의 Envoyer 배포의 실전](laravel-echo-system/laravel-nova-deployment-at-first.md)
 - [Envoyer에서 무중단 배포를 구현하는 방법](laravel-echo-system/how-to-deploy-zero-time-in-envoyer.md)
+- [라라벨이 애용하는 ::class 톺아보기](laravel-echo-system/about-magic-constant-colon-colon-class.md)
+- [라라벨에서의 버전의 의미](laravel-echo-system/introduce-fixed-release-for-laravel.md)
+- [라라벨 개발자를 위한 .aliases 파일](laravel-echo-system/.aliases-for-laravel-developer.md)
+- [라라벨 프로젝트를 만드는 두가지 방법 비교](laravel-echo-system/two-methods-creating-laravel-project.md)
 
 ## 개발 팁 <a id="development-tips"></a>
 
 - [퍼미션 에러없이 PHP를 구동하기 위한 서버 세팅법](development-tips/how-to-server-setting-like-forge.md)
-- [라라벨이 애용하는 ::class 톺아보기](development-tips/about-magic-constant-colon-colon-class.md)
-- [라라벨에서의 버전의 의미](development-tips/introduce-fixed-release-for-laravel.md)
-- [라라벨 개발자를 위한 .aliases 파일](development-tips/.aliases-for-laravel-developer.md)
-- [라라벨 프로젝트를 만드는 두가지 방법 비교](development-tips/two-methods-creating-laravel-project.md)
 - [PHP 스크립트를 php 명령어 없이 사용하는 법](development-tips/how-to-use-php-cli-without-extension.md)
 - [국제화의 필수 익스텐션, NumberFormatter](development-tips/about-number-formatter.md)
 - [라라벨에서 뷰헬퍼를 만들어 봅시다](development-tips/how-to-make-view-helper.md)
+
+## 비즈니스 <a id="business"></a>
+
+- [서비스x스토어](business/service-with-shop.md)
+- [발주입고 프로세스](business/placing-order-wearing-process.md)
+- [재고월마감 프로세스](business/inventory-monthly-closing.md)
+- [재고조정 프로세스](business/control-inventory.md)
 
 ## Knowledge Acquisition <a id="knowledge-acquisition"></a>
 
@@ -34,11 +41,3 @@
 - [Exception + Error = Throwable Tree in PHP 7 over](knowledge-acquisition/throwable-tree.md)
 - [Coding Style Preset](knowledge-acquisition/coding-style-preset.md)
 - [Programming Case Types](knowledge-acquisition/programming-case-types.md)
-  
-## 비즈니스 <a id="business"></a>
-
-- [서비스x스토어](business/service-with-shop.md)
-
-- [발주입고 프로세스](business/placing-order-wearing-process.md)
-- [재고월마감 프로세스](business/inventory-monthly-closing.md)
-- [재고조정 프로세스](business/control-inventory.md)
