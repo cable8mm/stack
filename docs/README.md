@@ -1,4 +1,5 @@
 ---
+title: Enjoy our stacks and stories
 description: Share your stacks and stories
 ---
 
