@@ -75,8 +75,8 @@ function getC(): C {
 | @example    | @example example1.php Counting in action.                                                                                                          |
 | @internal   | @internal                                                                                                                                          |
 | @inheritdoc | @inheritdoc                                                                                                                                        |
-| @link       | @link [http://example.com/my/bar](http://example.com/my/bar) Documentation of Foo.                                                                 |
-| @see        | @see [http://example.com/my/bar](http://example.com/my/bar) Documentation of Foo. / @see MyClass::$items For the property whose items are counted. |
+| @link       | @link (Domain) Documentation of Foo.                                                                 |
+| @see        | @see (Domain) Documentation of Foo. / @see MyClass::$items For the property whose items are counted. |
 
 태그 레퍼런스 :
 
