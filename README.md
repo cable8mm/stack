@@ -11,7 +11,7 @@
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
-For read in convenient : [Gitbook](https://stack.palgle.com)
+편하게 글을 읽으시려면 깃북으로 오세요 : [Gitbook](https://stack.palgle.com)
 
 ```php
 <?php
@@ -30,31 +30,31 @@ Route::middleware('auth:love-developer')->group(function () {
 });
 ```
 
-## How to contribute
+## 기여하기
+
+기여하는 방법은 두가지가 있습니다. 본 레포지토리에 멤버로 참여하거나 본 레포지토리를 fork 한 후 PR로 글을 기여 할 수 있습니다.
+
+멤버라면,
 
 ```sh
 git clone https://github.com/cable8mm/stack.git
 
 cd stack
-```
 
-Before writing, you should make new branch.
-
-```sh
 git checkout -b <new-branch>
 ```
 
-You have written for a while, then you can push your contents.
+후에 branch를 만들어서 레포지토리에 푸쉬 합니다.
 
 ```sh
 git push
 ```
 
-Finally you should make PR.
+머지를 통해서 본 레포지토리에 적용되면 자동으로 깃북은 업데이트 됩니다.
 
-After we have reviewed your contents, it would be merged and published.
+## 마크다운 문법 지키기와 링크 검사
 
-## How to lint markdown style
+본 레포지토리에 PR을 만들어서 푸쉬를 할 경우 마크다운 문법과 링크 검사가 자동으로 이루어 집니다. 효율을 위해서 아래의 방법으로 로컬 컴퓨터에서도 이 둘을 진행할 수 있습니다.
 
 ```sh
 brew install markdownlint-cli
