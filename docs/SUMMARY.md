@@ -21,7 +21,7 @@
   * [최신 IT 컴퍼니 트랜드](startup-tips/presentation.md#lets-make-unicorn)
 
 * [라라벨 생태계](laravel-echo-system/README.md)
-  * [라라벨 .env 내용을 Github Action test에 적용하기](laravel-env-into-github-secrets.md)
+  * [라라벨 .env 내용을 Github Action test에 적용하기](laravel-echo-system/laravel-env-into-github-secrets.md)
   * [라라벨 발렛(Laravel Valet)에서 Node 실행하기](laravel-echo-system/node-and-valet.md)
   * [라라벨 노바 훑어보기](laravel-echo-system/nova-preview.md)
   * [라라벨 노바의 Envoyer 배포의 실전](laravel-echo-system/laravel-nova-deployment-at-first.md)
