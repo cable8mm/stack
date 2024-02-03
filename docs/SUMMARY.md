@@ -1,24 +1,6 @@
 # Summary
 
-## 협업과 비즈니스 <a id="business"></a>
-
-* [협업](collaboration/README.md)
-  * [이메일 협업](collaboration/how-to-emailing.md)
-
-* [비즈니스](business/README.md)
-  * [서비스x스토어](business/service-with-shop.md)
-  * [발주입고 프로세스](business/placing-order-wearing-process.md)
-  * [재고월마감 프로세스](business/inventory-monthly-closing.md)
-  * [재고조정 프로세스](business/control-inventory.md)
-
 ## 개발 <a id="laravel-echo-system"></a>
-
-* [스타트업 팁](startup-tips/README.md)
-  * [PHP 코딩 가이드라인](startup-tips/php-coding-guidelines.md)
-  * [배포 가이드라인](startup-tips/deploy-guidelines.md)
-  * [기술 스택(Tech Stacks)](startup-tips/tech-stacks.md)
-  * [기술 소양](startup-tips/must-have-it.md)
-  * [최신 IT 컴퍼니 트랜드](startup-tips/presentation.md#lets-make-unicorn)
 
 * [라라벨 생태계](laravel-echo-system/README.md)
   * [라라벨 .env 내용을 Github Action test에 적용하기](laravel-echo-system/laravel-env-into-github-secrets.md)
@@ -37,9 +19,27 @@
   * [국제화의 필수 익스텐션, NumberFormatter](development-tips/about-number-formatter.md)
   * [라라벨에서 뷰헬퍼를 만들어 봅시다](development-tips/how-to-make-view-helper.md)
 
+* [스타트업 팁](startup-tips/README.md)
+  * [PHP 코딩 가이드라인](startup-tips/php-coding-guidelines.md)
+  * [배포 가이드라인](startup-tips/deploy-guidelines.md)
+  * [기술 스택(Tech Stacks)](startup-tips/tech-stacks.md)
+  * [기술 소양](startup-tips/must-have-it.md)
+  * [최신 IT 컴퍼니 트랜드](startup-tips/presentation.md#lets-make-unicorn)
+
 * [Knowledge Acquisition](knowledge-acquisition/README.md)
   * [Error 혹은 Warning](knowledge-acquisition/error-or-warning.md)
   * [NumberFormatter class example](knowledge-acquisition/number-formatter.md)
   * [Exception + Error = Throwable Tree in PHP 7 over](knowledge-acquisition/throwable-tree.md)
   * [Coding Style Preset](knowledge-acquisition/coding-style-preset.md)
   * [Programming Case Types](knowledge-acquisition/programming-case-types.md)
+
+## 협업과 비즈니스 <a id="business"></a>
+
+* [협업](collaboration/README.md)
+  * [이메일 협업](collaboration/how-to-emailing.md)
+
+* [비즈니스](business/README.md)
+  * [서비스x스토어](business/service-with-shop.md)
+  * [발주입고 프로세스](business/placing-order-wearing-process.md)
+  * [재고월마감 프로세스](business/inventory-monthly-closing.md)
+  * [재고조정 프로세스](business/control-inventory.md)
