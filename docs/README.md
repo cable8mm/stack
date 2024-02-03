@@ -1,9 +1,4 @@
----
-title: Enjoy our stacks and stories
-description: Share your stacks and stories
----
-
-# Introduce
+# Enjoy our stacks and stories
 
 For read in convenient : [Gitbook](https://stack.palgle.com)
 
