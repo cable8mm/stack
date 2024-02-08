@@ -65,8 +65,8 @@ public function boot()
  "extra": {
      "laravel": {
          "aliases": {
-             "PrettyProfileHelper": "EscCompany\\ViewTransformer\\PrettyProfile",
-             "WordBinderHelper": "EscCompany\\ViewTransformer\\WordBinder"
+             "PrettyProfileHelper": "Cable8mm\\ViewTransformer\\PrettyProfile",
+             "WordBinderHelper": "Cable8mm\\ViewTransformer\\WordBinder"
          }
      }
  }
