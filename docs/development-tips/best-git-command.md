@@ -38,11 +38,11 @@ alias gbclean="git branch | grep -v "main" | xargs git branch -D"
 # hello 브랜치 생성 후 이동
 gcb hello
 
+# hello 브랜치 만들기
+gb hello
+
 # main 브랜치로 이동
 gc main
-
-#hello 브랜치로 이동
-gb hello
 
 # PR이 머지된 후 로컬에서 main 브랜치 이외의 모든 브랜치를 삭제
 gbclean
