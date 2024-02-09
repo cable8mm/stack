@@ -14,6 +14,8 @@ CakePHP 2.x를 유지하는 저장소는 [kamilwylegala/cakephp2-php8](https://g
 
 CakePHP는 Composer를 사용하지 않지만, composer.json을 만든 후 아래와 같은 커맨드를 추가합니다.
 
+`cakephp/cakephp` 패키지 이름을 사용하기 위해서 원래 있던 root package 이름을 프로젝트 패키지 이름으로 수정한 후, composer.json 파일에 아래의 내용을 추가합니다.
+
 ```json
 {
     "require": {
