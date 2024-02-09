@@ -16,13 +16,13 @@ CakePHP는 Composer를 사용하지 않지만, composer.json을 만든 후 아�
 
 ```json
 {
-	"require": {
-		"cakephp/cakephp": "dev-master as 2.10.24",
-	},
+    "require": {
+        "cakephp/cakephp": "dev-master as 2.10.24",
+    },
     "scripts": {
-		"cake": "cp -r vendors/cakephp/cakephp/lib/Cake lib",
-	},
-	"repositories": [
+        "cake": "cp -r vendors/cakephp/cakephp/lib/Cake lib",
+    },
+    "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/kamilwylegala/cakephp2-php8"
