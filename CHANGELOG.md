@@ -1,5 +1,15 @@
 # Release Notes
 
+## v2.5.0 - 2024-02-10
+
+### What's Changed
+
+* 탭을 스페이스 4칸으로 변경 by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/stack/pull/22
+* 글에 없는 내용이 있어 패키지 업데이트 부분을 추가 by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/stack/pull/23
+* Add a article - migrate from svn to git by [@cable8mm](https://github.com/cable8mm) in https://github.com/cable8mm/stack/pull/24
+
+**Full Changelog**: https://github.com/cable8mm/stack/compare/v2.4.0...v2.5.0
+
 ## v2.4.0 - 2024-02-09
 
 ### What's Changed
