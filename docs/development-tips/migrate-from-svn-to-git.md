@@ -4,7 +4,7 @@ svn 저장소가 source forge 혹은 자사 서버에 업로드 되어 있다면
 
 우선, svn과 git 과의 차이가 하나 있는데요, git 의 계정엔 이메일 주소가 반드시 필요하지만 svn은 그렇지 않다는 사실만 알아두면 좋습니다.
 
-## 필요한 소프트웨어
+### 필요한 소프트웨어
 
 svn의 저장소를 git으로 변환하기 위한 툴을 설치합니다.
 
@@ -12,7 +12,7 @@ svn의 저장소를 git으로 변환하기 위한 툴을 설치합니다.
 brew install git-svn
 ```
 
-## 이전하기
+### 이전하기
 
 svn 서버가 없고 dump 파일이 있다면 로컬에 `svnadmin`을 띄운 후 svn 서버에 dump 파일을 로드합니다.
 
@@ -45,7 +45,7 @@ svn log -q | grep -e '^r' | awk 'BEGIN { FS = "|" } ; { print $2" = "$2 }' | sed
 git svn clone -s [체크아웃 주소] [클로닝 path] —authors-file [authors.txt 파일 절대 경로]authors.txt
 ```
 
-## 마무리
+### 마무리
 
 이 내용에 대한 가장 정확한 정보는 깃헙에서 제공하는 문서입니다.
 
