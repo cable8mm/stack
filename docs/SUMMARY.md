@@ -15,6 +15,7 @@
   * [라라벨 개발자를 위한 .aliases 파일](laravel-echo-system/.aliases-for-laravel-developer.md)
   * [라라벨 프로젝트를 만드는 두가지 방법 비교](laravel-echo-system/two-methods-creating-laravel-project.md)
 * [개발 팁](development-tips/README.md)
+  * [MySQL 9로 업데이트할 때 로그인 이슈](development-tips/update-issue-of-mysql9.md)
   * [svn 저장소를 git으로 이전하기](development-tips/migrate-from-svn-to-git.md)
   * [CakePHP2를 PHP 8에서 쉽게 사용하기](development-tips/you-can-easily-development-by-cakephp8-until-now.md)
   * [베스트 깃(Git) 커맨드](development-tips/best-git-command.md)
